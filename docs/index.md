@@ -6,11 +6,11 @@ hero:
   tagline: '#프론트엔드 #Javascript #Vue #다양한_호기심'
   actions:
     - theme: brand
-      text: Vue
-      link: /vue3/index
-    - theme: alt
-      text: Study
-      link: /study/index
+      text: Introduction
+      link: /introduction
+    # - theme: alt
+    #   text: Study
+    #   link: /study/notionapi
 # features:
 #   - icon: ⚡️
 #     title: Vite, The DX that can't be beat

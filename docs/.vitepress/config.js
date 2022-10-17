@@ -8,29 +8,27 @@ export default {
     },
     themeConfig: {
       nav: [
-        {
-          text: 'Vue',
-          items: [
-            { text: 'Vue', link: '/vue3/index' },
-          ]
-        },
-        {
-          text: 'Toy project',
-          items: [
-            { text: 'Notion api', link: '/study/notionapi' },
-          ]
-        },
-        { text: 'Donation', link: '/donation' },
+        { text: '🎁 Donation', link: '/donation' },
       ],
       sidebar: [
         {
-          text: 'Vue',
+          text: 'Guide',
           items: [
-            { text: 'Vue', link: '/vue3/index' },
+            { text: 'Introduction', link: '/introduction' },
+          ]
+        },
+        {
+          text: 'Flutter',
+          collapsible: true,
+          items: [
+            { text: 'Flutter', link: '/flutter/flutter' },
+            { text: 'Dart', link: '/flutter/dart' },
           ]
         },
         {
           text: 'Toy project',
+          collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Notion api', link: '/study/notionapi' },
           ]
