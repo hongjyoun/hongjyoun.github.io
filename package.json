@@ -1,0 +1,17 @@
+{
+  "name": "hongjyoun-github-blog",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "vue": "^3.2.37",
+    "vitepress": "^1.0.0-alpha.19"
+  }
+}
