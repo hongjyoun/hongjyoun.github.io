@@ -12,7 +12,7 @@ export default {
       ],
       sidebar: [
         {
-          text: 'Guide',
+          text: '♟ Guide',
           items: [
             { text: 'Introduction', link: '/introduction' },
           ]
