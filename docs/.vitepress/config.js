@@ -1,3 +1,5 @@
+import { MENU_GUIDE, MENU_FLUTTER, MENU_STUDY } from '../../modules/nav'
+
 export default {
     title: 'GIRIN TECH BLOG 👩🏻💻',
     titleTemplate: false,
@@ -10,30 +12,7 @@ export default {
       nav: [
         { text: '🎁 Donation', link: '/donation' },
       ],
-      sidebar: [
-        {
-          text: '♟ Guide',
-          items: [
-            { text: 'Introduction', link: '/introduction' },
-          ]
-        },
-        {
-          text: 'Flutter',
-          collapsible: true,
-          items: [
-            { text: 'Flutter', link: '/flutter/flutter' },
-            { text: 'Dart', link: '/flutter/dart' },
-          ]
-        },
-        {
-          text: 'Toy project',
-          collapsible: true,
-          collapsed: true,
-          items: [
-            { text: 'Notion api', link: '/study/notionapi' },
-          ]
-        },
-      ]
+      sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_STUDY ]
     },
     head: [
       // Song Myoung 서체

@@ -1,5 +1,4 @@
 ---
 layout: doc
 ---
-
-# 커밍쑨!
+# Guide for Blog

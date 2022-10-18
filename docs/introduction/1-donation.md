@@ -1,5 +1,4 @@
 ---
 layout: doc
 ---
-
-# Introduction
+# 커밍쑨!

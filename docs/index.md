@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: Introduction
-      link: /introduction
+      link: /introduction/0-guide
     # - theme: alt
     #   text: Study
     #   link: /study/notionapi
