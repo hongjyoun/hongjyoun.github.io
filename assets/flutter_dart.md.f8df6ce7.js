@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as r}from"./app.d7392ba5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"flutter/dart.md"}'),a={name:"flutter/dart.md"};function o(s,c,n,d,p,_){return r(),e("div")}const l=t(a,[["render",o]]);export{i as __pageData,l as default};
