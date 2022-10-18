@@ -35,5 +35,5 @@ export const MENU_STUDY = {
     text: 'Toy project',
     collapsible: true,
     collapsed: true,
-    items: await getFileList('study'),
+    items: await getFileList('toy'),
 }
