@@ -12,7 +12,7 @@ const getFileList = (folderName) => {
                     const fileName = file.split('.')[0]
                     const index = fileName.split('-')[0]
                     const text = fileName.split('-')[1].charAt(0).toUpperCase() + fileName.split('-')[1].slice(1);
-                    list[index] = { text, link: `/flutter/${fileName}`}
+                    list[index] = { text, link: `/${folderName}/${fileName}`}
                 });
                 resolve(list);
             }
