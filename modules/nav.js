@@ -34,6 +34,12 @@ export const MENU_FLUTTER = {
 export const MENU_STUDY = {
     text: 'Toy project',
     collapsible: true,
-    collapsed: true,
+    // collapsed: true,
     items: await getFileList('toy'),
+}
+
+export const MENU_VITEPRESS = {
+    text: 'Vitepress 블로그',
+    collapsible: true,
+    items: await getFileList('vitepress'),
 }

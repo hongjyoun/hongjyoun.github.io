@@ -1,4 +1,4 @@
-import { MENU_GUIDE, MENU_FLUTTER, MENU_STUDY } from '../../modules/nav'
+import { MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY } from '../../modules/nav'
 
 export default {
     title: 'GIRIN TECH BLOG 👩🏻💻',
@@ -12,7 +12,7 @@ export default {
       nav: [
         { text: '🎁 Donation', link: '/donation' },
       ],
-      sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_STUDY ]
+      sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY ]
     },
     head: [
       // Song Myoung 서체
