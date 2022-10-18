@@ -1,12 +1,12 @@
 ---
 layout: home
 hero:
-  name: 안녕하세요 👋
-  text: 공부하고 기록합니다 💻
-  tagline: '#프론트엔드 #Javascript #Vue #다양한_호기심'
+  name: HELLO 👋
+  text: 공부하고 기록하는 💻 프론트엔드 2년차 👶
+  tagline: '#프론트엔드 #Javascript #Vue #Flutter'
   actions:
     - theme: brand
-      text: Introduction
+      text: Enter 🚪
       link: /introduction/0-guide
     # - theme: alt
     #   text: Study
