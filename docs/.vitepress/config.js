@@ -10,7 +10,7 @@ export default {
     },
     themeConfig: {
       nav: [
-        { text: '🎁 Donation', link: '/donation' },
+        { text: 'Buy me a coffee ☕️', link: '/introduction/1-buy-me-a-coffee' },
       ],
       sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY ]
     },

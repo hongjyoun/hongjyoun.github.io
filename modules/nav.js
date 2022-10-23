@@ -11,9 +11,20 @@ const getFileList = (folderName) => {
                 files.forEach(file => {
                     const fileName = file.split('.')[0]
                     const index = fileName.split('-')[0]
-                    const text = fileName.split('-')[1].charAt(0).toUpperCase() + fileName.split('-')[1].slice(1);
+                    const titleWords = fileName.split('-')
+                    let text = ''
+                    titleWords.forEach(((value, index) => {
+                        if(index === 0) {
+                            return;
+                        } else if (index === 1) {
+                            text += value.charAt(0).toUpperCase() + value.slice(1);
+                        } else {
+                            text += ` ${value}`
+                        }
+                    }))
                     list[index] = { text, link: `/${folderName}/${fileName}`}
                 });
+                console.log(list)
                 resolve(list);
             }
         });
@@ -23,7 +34,7 @@ const getFileList = (folderName) => {
 export const MENU_GUIDE = {
     text: 'Intro', 
     items: await getFileList('introduction'),
-}
+} 
 
 export const MENU_FLUTTER = {
     text: 'Flutter',
