@@ -1,4 +1,4 @@
-# Vitepress로 블로그 만들기
+# Vitepress로 블로그 만들기 - Vitepress 소개
 
 ## Vitepress란?
 정적인 페이지(SSG)를 자동으로 생성해주는 도구, 혹은 프레임워크이다. Vue와 Vite를 개발한 Evan you가 만들었다. 이름(press)에서도 알 수 있듯이, 블로그나 기사처럼 글을 발행하는 빈도가 높은 사이트에 적합하다. 각 페이지는 markdown으로 작성하도록 되어있어서 markdown 만 조금 익히면 누구나 쉽게 글을 발행할 수 있다.
