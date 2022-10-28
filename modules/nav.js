@@ -24,7 +24,6 @@ const getFileList = (folderName) => {
                     }))
                     list[index] = { text, link: `/${folderName}/${fileName}`}
                 });
-                console.log(list)
                 resolve(list);
             }
         });
