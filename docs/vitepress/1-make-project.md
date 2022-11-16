@@ -97,7 +97,7 @@ npm install로 패키지 설치
 index.md 파일 만들어서 내용을 간단히 적어주고
 
 ![vitepress-make-project-image](../public/image/vitepress-1-5.png)
-npm run dev 명령어를 날리면, 5174 포트에 띄워진다.
+npm run dev 명령어를 날리면, 5173 (위 이미지에서는 5174) 포트에 띄워진다.
 
 ![vitepress-make-project-image](../public/image/vitepress-1-6.png)
 짠, 심플한 네비게이션과 페이지가 생성된걸 볼 수 있다
@@ -107,3 +107,5 @@ npm run dev 명령어를 날리면, 5174 포트에 띄워진다.
 
 
 이제 이걸 어딘가에 배포를 해야된다. 빌드 후 생성된 파일들을 보면 static html 파일들임을 알 수 있는데, 이런 정적 페이지들을 배포해주는 서비스들은 시중이 많이 있다. 나같은 경우는 그 중에서도 github pages 서비스를 이용해서 배포했다. 깃헙 계정이 있으면 아이디 1개당 1개의 홈페이지를 무료로 만들 수 있어서 쉽고 간편하다 ㅋ github pages에 배포하는 방법은 추후 글로 다시 다루기로 하겠음!
+
+<Comments />
