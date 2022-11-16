@@ -20,7 +20,7 @@ https://vitepress.vuejs.org/
  처음에는 Jekyll로 만들었었다. 지금 사이트를 배포한 Github pages에서는 Jekyll을 거의 공식적으로 밀어주고 있어서 Jekyll로 블로그를 만드는 사람들이 많았다. 그래서 처음에 이걸로 홈페이지를 만들었는데, **테마가 영...안이뻤다** 😣 그리고 Ruby 언어를 기반으로 하니까 이거 또 새로 배우기가 넘나 귀찮은것(...) 그래서 그냥 vitepress 공식사이트 하나하나 만들고, 배포는 githup pages로 했다. 진짜 30분 안에 뚝딱 만들수 있을 만큼 가볍다.
 
 ## 글 발행 리스트 (예정)
-1. Vitepress 프로젝트 생성하기
+1. [Vitepress 프로젝트 생성하기](/vitepress/1-make-project.html)
 2. Vitepress 설정(config) 설정하기
 3. Markdown 활용 및 작성 예시
 4. Githup pages에 배포하기
