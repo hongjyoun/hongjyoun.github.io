@@ -79,6 +79,31 @@ docs 폴더에 index.md (다른 이름이어도 좋다) 파일을 만들어서 �
 
 나는 저기서 docs: 이 부분을 생략했다 ㅋ 번거로워서.. 우쨌든, vitepress dev docs 는 로컬에서 개발모드로 사이트를 띄워볼 수 있고, build를 하면 docs/.vitepress/dist 폴더 안에 html 파일들이 만들어지는 것을 확인할 수 있다!
 
+
 vitepress dev docs 명령어를 입력해서 로컬에서 사이트를 띄워보자. 내가 만든 [index.md](http://index.md) 파일이 html로 변환되어 나오는 걸 확인할 수 있다.
 
-이제 어딘가로 배포를 해야되는데, 빌드 후 생성된 파일들을 보면 static html 파일들임을 알 수 있다. 이런 정적 페이지들을 배포해주는 서비스들이 많을텐데, 나같은 경우는 github pages 서비스를 이용해서 배포했다. 깃헙 계정이 있으면 아이디 1개당 1개의 홈페이지를 무료로 만들 수 있다. github pages에 배포하는 방법은 추후 글로 다시 다루기로 하겠음!
+프로젝트 생성에서부터 페이지를 띄우는 것까지 이미지로 보면 다음과 같다!
+
+![vitepress-make-project-image](../public/image/vitepress-1-1.png)
+vitepress-proj-example 이라는 폴더를 만들고, 그 안에 docs 라는 폴더를 만들었다.
+
+![vitepress-make-project-image](../public/image/vitepress-1-2.png)
+package.json 파일을 만들어서 그 안에 내용을 넣었다.
+
+![vitepress-make-project-image](../public/image/vitepress-1-4.png)
+npm install로 패키지 설치
+
+![vitepress-make-project-image](../public/image/vitepress-1-3.png)
+index.md 파일 만들어서 내용을 간단히 적어주고
+
+![vitepress-make-project-image](../public/image/vitepress-1-5.png)
+npm run dev 명령어를 날리면, 5174 포트에 띄워진다.
+
+![vitepress-make-project-image](../public/image/vitepress-1-6.png)
+짠, 심플한 네비게이션과 페이지가 생성된걸 볼 수 있다
+
+![vitepress-make-project-image](../public/image/vitepress-1-7.png)
+기특하게도 Dark mode를 기본으로 지원한다.
+
+
+이제 이걸 어딘가에 배포를 해야된다. 빌드 후 생성된 파일들을 보면 static html 파일들임을 알 수 있는데, 이런 정적 페이지들을 배포해주는 서비스들은 시중이 많이 있다. 나같은 경우는 그 중에서도 github pages 서비스를 이용해서 배포했다. 깃헙 계정이 있으면 아이디 1개당 1개의 홈페이지를 무료로 만들 수 있어서 쉽고 간편하다 ㅋ github pages에 배포하는 방법은 추후 글로 다시 다루기로 하겠음!
