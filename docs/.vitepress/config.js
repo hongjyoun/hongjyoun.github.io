@@ -9,10 +9,11 @@ export default {
       lineNumbers: true
     },
     themeConfig: {
-      // nav: [
-        // { text: 'Buy me a coffee ☕️', link: '/introduction/1-buy-me-a-coffee' },
-      // ],
-      sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY ]
+      nav: [
+        { text: 'Blog 📙', link: '/blog' },
+        { text: 'Shopping 💎', link: '/shopping' },
+      ],
+      // sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY ]
     },
     head: [
       // Song Myoung 서체
