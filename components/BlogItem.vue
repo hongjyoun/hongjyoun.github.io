@@ -1,7 +1,7 @@
 <template>
     <div blog-item>
-        <span>{{ createdDate }} </span>
         <a :href="`articles/${filename}`"> <slot /> </a>
+        <span>{{ createdDate }} </span>
     </div>
 </template>
 <script>
@@ -27,6 +27,7 @@ export default {
 <style scoped>
 [blog-item] {
     display: flex;
+    justify-content: space-between;
     gap: 20px;
     padding: 20px;
     border: 1px solid #3FAA7A;
