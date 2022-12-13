@@ -8,8 +8,7 @@
 export default {
     name: 'BlogItem',
     props: {
-        filename: { required: true },
-        title: { required: true }
+        filename: { required: true }
     },
     computed: {
         createdDate() {
@@ -32,5 +31,6 @@ export default {
     padding: 20px;
     border: 1px solid #3FAA7A;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 </style>

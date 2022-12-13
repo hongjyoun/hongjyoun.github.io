@@ -1,5 +1,3 @@
-import { MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY } from '../../modules/nav'
-
 export default {
     title: 'GIRIN TECH BLOG 👩🏻💻',
     titleTemplate: false,
@@ -13,7 +11,6 @@ export default {
         { text: 'Blog 📙', link: '/blog' },
         { text: 'Shopping 💎', link: '/shopping' },
       ],
-      // sidebar: [ MENU_GUIDE, MENU_FLUTTER, MENU_VITEPRESS, MENU_STUDY ]
     },
     head: [
       // Song Myoung 서체
