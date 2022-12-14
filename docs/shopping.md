@@ -7,7 +7,14 @@ aside: false
 
 <br>
 
-### 상품평 1,000개 이상
+### 휴식이 필요할 떄 ☕
+<ShopItem 
+    path="https://link.coupang.com/a/H84gM"
+    src="https://t1a.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/1225104117938763-dbdf3019-b663-49bc-9e8d-66a4e94fa6dd.jpg"
+    title="일리 프란시스 Y3.3 커피머신 화이트"
+    reviews="1,371"
+    rating="5"
+/>
 <ShopItem 
     path="https://link.coupang.com/a/H84gM"
     src="https://thumbnail13.coupangcdn.com/thumbnails/remote/212x212ex/image/retail/images/2022/04/11/18/2/b7ceb3d1-646c-42c5-8327-9b4a5dea9c6d.jpg"
