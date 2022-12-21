@@ -2,13 +2,19 @@
     <div shop-item>
         <a :href="path" target="_blank" rel="noreferrer noopener">
             <div class="item-wrapper">
-                <img :src="src" width="110" height="110"/>
+                <img :src="src" width="220" height="220"/>
                 <div class="desc-wrapper">
-                    <span class="desc-title">{{title}}</span>
-                    <div style="display:flex; gap:4px;">
-                        <span v-if="rating"> <RatingStar :rating="rating"/> </span> 
-                        <span v-if="reviews" class="desc-review">후기 {{reviews}}개</span>
-                    </div>             
+                    <span class="desc-title">
+                        <div>{{title}}</div>
+                        <div style="display:flex; gap:4px;">
+                            <span v-if="rating"> <RatingStar :rating="rating"/> </span> 
+                            <span v-if="reviews" class="desc-review">후기 {{reviews}}개</span>
+                        </div>   
+                    </span>
+                    <div class="desc-comment">
+                        <span v-if="commentOne" class="comment-text">"{{commentOne}}"</span>
+                        <span v-if="commentTwo" class="comment-text">"{{commentTwo}}"</span>
+                    </div>
                 </div>
             </div>
         </a>
@@ -25,11 +31,16 @@ export default {
         title: { required: true },
         reviews: { type: String },
         rating: { type: String },
+        commentOne: { type: String },
+        commentTwo: { type: String },
     },
     data() {
 		return {
 		}
 	},
+    created() {
+        console.log(this.comments)
+    }
 };
 </script>
 <style>
@@ -64,9 +75,21 @@ export default {
     align-items: end;
 }
 [shop-item] .item-wrapper .desc-wrapper .desc-title {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+}
+[shop-item] .item-wrapper .desc-wrapper .desc-title > div {
     font-size: 18px;
 }
 [shop-item] .item-wrapper .desc-wrapper .desc-review {
     font-size: 14px;
+}
+[shop-item] .item-wrapper .desc-wrapper .desc-comment {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
 }
 </style>
